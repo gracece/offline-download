@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <link media="all" rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" type="text/css" />
     <script src="./bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-    <title>Remote Download</title>
+    <title>Offline Download</title>
     <style type="text/css">
       body{
         font-family:Microsoft YaHei;
