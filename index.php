@@ -15,8 +15,6 @@
       <div class="navbar-inner">
         <div class="container">
           <a href="http://sysucs.org" class="brand">sysucs.org</a>
-          <a href="http://gmy.asia" class="brand">gmy</a>
-          <a href="http://gracece.net" class="brand">grace</a>
         </div>
       </div>
     </div>
@@ -94,7 +92,10 @@ for(var j = 1;j<=num;j++){
 //alert("good");
 timeRemain();
 </script>
-
+<div >
+<p style="text-align:center">
+Copyright &copy; <a href="http://gmy.asia">gmy</a> & <a href="http://gracece.net">grace</a> 2012 </p>
+</div>
   </body>
 </html>
 <?php
@@ -168,10 +169,9 @@ timeRemain();
                     <td><input class='btn btn-danger' type='submit' value='delete' onclick='info()' style='padding:0 0 ;' /></td>
                     </tr>
                     ";
-
             }
+                echo "</table>";
             echo "<p id='xnumber'>".$index."</p>";
-            // echo "<div>Copyright &copy;gmy.asia & gracece.net</div>";
         }
 
         function safePost($str)
@@ -183,7 +183,7 @@ timeRemain();
 
         $url = safePost("url");
         $name = safePost("filename");
-        $allow_type=array("wmv","deb","iso","xls","xlsx","exe","cpp","pdf","gif","mp3","mp4","zip","rar","doc","docx","mov","ppt","pptx","txt","7z","jpeg","jpg","JPEG","png");
+        $allow_type=array("wmv","apk","deb","iso","xls","xlsx","exe","cpp","pdf","gif","mp3","mp4","zip","rar","doc","docx","mov","ppt","pptx","txt","7z","jpeg","jpg","JPEG","png");
         //允许的文件类型
         $torrent = explode(".",$url);
         $file_end = end($torrent);
