@@ -196,7 +196,6 @@ Copyright &copy; <a href="http://gmy.asia">gmy</a> & <a href="http://gracece.net
             // --restrict-file-names 解决中文地址导致文件名乱码的问题
             // -P 保存路径
             echo "<script type='text/javascript'>
-                alert('正在后台下载，请耐心等待！sorry,暂时不能提供下载进度=。= 请通过文件大小来判断');
             reloadPage();
     </script>"; 
     }
