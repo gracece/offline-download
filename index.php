@@ -1,7 +1,7 @@
 <!DOCTYPE HTML> <html lang="en"> <head>
     <meta charset="UTF-8">
-    <link media="all" rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" type="text/css" />
-    <script src="./bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<link href="http://libs.baidu.com/bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet">
+<script src="http://libs.baidu.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
     <title>Offline Download</title>
     <style type="text/css">
       body{
@@ -29,7 +29,7 @@
       </header>
 
       <div  id="downloading" class="alert alert-info">
-        <p>欢迎使用！采用wget后台下载的方法实现简单的离线下载功能，wget更多使用方法请查看  <a href="wget.pdf"><strong>wget使用说明</strong></a></p>
+        <p>欢迎使用！采用wget后台下载的方法实现简单的离线下载功能，wget更多使用方法请查看  <a href="http://www.gnu.org/software/wget/manual/wget.html"><strong>wget使用说明</strong></a></p>
         <p><b>注意：</b>文件有效期为48小时，请及时下载，到期将会自动删除！</p>
       </div>
 
